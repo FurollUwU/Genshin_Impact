@@ -1,0 +1,224 @@
+/*текстовые свойства*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 20px ;
+	font-weight: 400;
+	line-height: 130%;
+	color: black;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 120%;
+	color: #9c1010;
+}
+
+h2{
+	font-size: 28px;
+	font-weight: 800;
+	color: #9c1010;
+}
+
+h3{
+	font-size: 22px;
+	font-weight: 800;
+}
+
+b{
+	font-weight: 600;
+}
+
+i {
+	font-style: italic;
+}
+
+a {
+	color:#9c1010 ;
+	text-decoration: none;
+}
+
+ol, ul {
+	line-height: 120%;
+}
+
+
+
+/*отступы*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 000 35px;
+}
+
+h1{
+	margin: 80px 0;
+	text-align: center;
+}
+
+h2{
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+
+.title-1{
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+.title-2{
+	margin-top: 20px;
+}
+
+p{
+	margin-bottom: 20px;
+}
+
+ul{
+	padding-left: 30px;
+}
+
+.note{
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+
+
+
+
+/*медиаконтент*/
+
+.image-1 {
+	width: 40%;
+	float: right;
+	margin: 30px;
+}
+
+.image-2 {
+	width: 40%;
+	float: left;
+	margin: 30px;
+}
+
+.video-container{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.video {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+
+
+body {
+	background-image: url(../images/back2.jpg); 
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+
+
+/*Кнопка*/
+
+.button {
+	background-color:#2b2b2b ;
+	border-radius: 40px;
+	display: block;
+	width: 45%;
+	margin: 70px auto;
+	color: white;
+	padding: 25px 50px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+} 
+
+
+.button:hover {
+	background-color: #9c1010 ;
+}
+
+
+
+/*Оглавление*/
+
+.contents {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 700;
+	color: black;
+}
+
+.contents:hover {
+	color: #9c1010 ;
+}
+
+.contents-border {
+	border-top: 3px dashed black ;
+	border-bottom: 3px dashed black  ;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+	
+
+
+
+
+
+/*шапка*/
+
+header {
+	height: 130px;
+	background-color:#810c0c  ;	
+}
+
+.header-container {
+	height: 30px ; 
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 50px 35px;
+}
+
+.menu {
+	margin-right: 30px;
+	font-size: 22px;
+	font-weight: 700;
+	color: #f3b5b5;
+
+}
+
+.menu:hover {
+	color: white;
+}
+
+
+
+
+/*подвал*/
+
+footer {
+	height: 230px;
+	background-color: #4f0606 ;
+}
+
+.footer-container {
+	height: 30px;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 100px 35px;
+}
+
+ .author {
+ 	color: white;
+ 	text-align: right;
+ }
